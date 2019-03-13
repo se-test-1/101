@@ -1,0 +1,16 @@
+<?php
+
+    $check_game = " ";
+    $first_name = $_REQUEST["fname"];
+    $last_name = $_REQUEST["lname"];
+    $sex = $_REQUEST["sex"];
+    $Stus = $_REQUEST["status"];
+
+    if(isset($_REQUEST["game"])) $check_game = $_REQUEST["game"];
+    (isset($_REQUEST["book"]))? $check_book = $_REQUEST["book"] : $check_book = "";
+
+    echo "<b> Hi, </b>".$first_name.' '.$last_name .'<br>';
+    echo "Gender is ".$sex.'<br>';
+    echo "Stasut is ".$Stus.'<br>';
+    echo "Hobby is ".$check_game.','.$check_book.'<br>';
+?>
