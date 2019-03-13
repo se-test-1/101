@@ -11,4 +11,6 @@
     echo "Gender is ".$sex.'<br>';
     echo "Stasut is ".$Stus.'<br>';
     echo "Hobby is ".$check_game.'<br>';
+    
+    echo "แก้ไขครั้งที่ ๒ ผ่าน "
 ?>
